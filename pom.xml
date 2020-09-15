@@ -72,7 +72,7 @@
 			<version>1.6.1</version>
 			<configuration>
 				<from>
-					<image>openjdk:15-jdk</image>
+					<image>openjdk:11</image>
 				</from>
 				<to>
 					<image>docker.io/adiwalv/${project.artifactId}:${project.version}</image>
