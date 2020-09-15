@@ -49,9 +49,36 @@
 			<artifactId>jaxb-runtime</artifactId>
 			<version>2.3.2</version>
 		</dependency>
-    <dependency>
+    	<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
+    	<dependency>
+			<groupId>org.springframework.security.oauth</groupId>
+			<artifactId>spring-security-oauth2</artifactId>
+			<version>2.3.4.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>com.adiwal</groupId>
+			<artifactId>commons</artifactId>
+			<version>1.0</version>
+		</dependency>
   </dependencies>
+  <build>
+  	<plugins>
+		<plugin>
+			<groupId>com.google.cloud.tools</groupId>
+			<artifactId>jib-maven-plugin</artifactId>
+			<version>1.6.1</version>
+			<configuration>
+				<from>
+					<image>openjdk:15-jdk</image>
+				</from>
+				<to>
+					<image>docker.io/adiwalv/${project.artifactId}:${project.version}</image>
+				</to>
+			</configuration>
+		</plugin>	
+  	</plugins>
+  </build>
 </project>
