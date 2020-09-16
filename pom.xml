@@ -58,11 +58,6 @@
 			<artifactId>spring-security-oauth2</artifactId>
 			<version>2.3.4.RELEASE</version>
 		</dependency>
-		<dependency>
-			<groupId>com.adiwal</groupId>
-			<artifactId>commons</artifactId>
-			<version>1.0</version>
-		</dependency>
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
