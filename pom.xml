@@ -78,7 +78,46 @@
 					<image>docker.io/adiwalv/${project.artifactId}:${project.version}</image>
 				</to>
 			</configuration>
-		</plugin>	
+		</plugin>
+		<plugin>
+                <groupId>com.mycila</groupId>
+                    <artifactId>license-maven-plugin</artifactId>
+                    <version>3.0</version>
+                    <dependencies>
+                        <dependency>
+                            <groupId>com.mycila</groupId>
+                            <artifactId>license-maven-plugin-git</artifactId>
+                            <!-- make sure you use the same version as license-maven-plugin -->
+                            <version>3.0</version>
+                        </dependency>
+                    </dependencies>
+                    <configuration>
+                        <header>ADIWAL_License.txt</header>
+                        <aggregate>true</aggregate>
+                        <properties>
+                            <owner>Vikas Adiwal</owner>
+                            <email>adiwalv@gmail.com</email>
+                            <project.inceptionYear>2020</project.inceptionYear>
+                        </properties>
+                        <includes>
+                            <include>**/*.java</include>
+                            <include>**/*.groovy</include>
+                            <include>**/*.xml</include>
+                            <include>**/*.html</include>
+                        </includes>
+                        <excludes>
+                            <exclude>**/.*/**</exclude>
+                        </excludes>
+                    </configuration>
+                    <executions>
+                        <execution>
+                            <phase>prepare-package</phase>
+                            <goals>
+                                <goal>check</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
   	</plugins>
   </build>
 </project>
