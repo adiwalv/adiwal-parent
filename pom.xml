@@ -12,7 +12,7 @@
 
   <groupId>com.adiwal</groupId>
   <artifactId>adiwal-parent</artifactId>
-  <version>1.1</version>
+  <version>1.2</version>
 
   <name>adiwal-parent</name>
   <url>http://www.adiwal.com</url>
@@ -75,10 +75,10 @@
 		<plugin>
 			<groupId>com.google.cloud.tools</groupId>
 			<artifactId>jib-maven-plugin</artifactId>
-			<version>1.6.1</version>
+			<version>2.7.1</version>
 			<configuration>
 				<from>
-					<image>openjdk:11</image>
+					<image>openjdk:15</image>
 				</from>
 				<to>
 					<image>docker.io/adiwalv/${project.artifactId}:${project.version}</image>
