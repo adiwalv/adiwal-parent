@@ -12,21 +12,21 @@
 
   <groupId>com.adiwal</groupId>
   <artifactId>adiwal-parent</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
 
   <name>adiwal-parent</name>
-  <!-- FIXME change it to the project's website -->
   <url>http://www.adiwal.com</url>
   <packaging>pom</packaging>
 
   <parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.3.3.RELEASE</version>
+        <version>2.4.3</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
   <properties>
-    <java.version>11</java.version>
+      <java.version>15</java.version>
+      <kotlin.version>1.4.30</kotlin.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
