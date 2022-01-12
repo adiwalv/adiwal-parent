@@ -12,7 +12,7 @@
 
   <groupId>com.adiwal</groupId>
   <artifactId>adiwal-parent</artifactId>
-  <version>1.4</version>
+  <version>1.5</version>
 
   <name>adiwal-parent</name>
   <url>http://www.adiwal.com</url>
@@ -25,7 +25,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
   <properties>
-      <java.version>11</java.version>
+      <java.version>17</java.version>
       <kotlin.version>1.4.30</kotlin.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -78,7 +78,7 @@
 			<version>2.7.1</version>
 			<configuration>
 				<from>
-					<image>openjdk:15</image>
+					<image>openjdk:17</image>
 				</from>
 				<to>
 					<image>docker.io/adiwalv/${project.artifactId}:${project.version}</image>
